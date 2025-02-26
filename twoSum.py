@@ -1,4 +1,6 @@
 class Solution:
+    # Using two Pointer
+    # Time: O(n), Space O(1
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         # using 2 Pointers
         start = 0
@@ -14,6 +16,8 @@ class Solution:
 
 
 class Solution:
+    # using Hashmap
+    # Time: O(n), Space: O(n)
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         # Using Hashmap
         # my_dict = {}
